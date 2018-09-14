@@ -8,4 +8,8 @@ This repository for red circle shape aerodrome detection for Drones. We supplied
   <img src="Output/570.jpg" width="280"/> 
 </p>
 
-Projects uses Opencv and skimage libraries to find red circle and determine its position and also radius as well.
+Projects uses Opencv and skimage libraries to find red circle and determine its position and also radius as well. To find circle model we used ransac algorithm. You can run demo using following script.
+```
+$ python demo.py Input/video2.mp4
+```
+
