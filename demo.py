@@ -30,7 +30,7 @@ if __name__ == '__main__':
         ctime=time.time()
 
         if status:
-
+            
             cv2.circle(frame,(int(o.x),int(o.y)),int(o.r),(0,0,255),2)
             cv2.circle(frame,(int(o.x),int(o.y)),int(1),(255,0,0),2)            
             msg="x:" + str(o.x) +"  y:" +str(o.y) +"   r:" + str(o.r)
