@@ -11,7 +11,7 @@ if __name__ == '__main__':
     
     o=ObjectFinder()
     
-    videofile='video1.mp4'
+    videofile='Input/video1.mp4'
 
     if len(sys.argv)>1:
         videofile=str(sys.argv[1])   
@@ -44,6 +44,7 @@ if __name__ == '__main__':
         fname=str(fno)+".jpg"
         #cv2.imwrite(fname,frame)
         cv2.imshow('detected circles',frame)
+        
         cv2.waitKey(10)
 
     cap.release()
